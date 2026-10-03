@@ -7,21 +7,35 @@ document.getElementById("resultForm").addEventListener("submit", function(event)
     let math = Number(document.getElementById("math").value);
     let english = Number(document.getElementById("english").value);
     let science = Number(document.getElementById("science").value);
-    let agricultural science = Number(document.getElementById("agricultural science").value);
-    let home economics = Number(document.getElementById("home economics").value);
-    let basic technology = Number(document.getElementById("basic technology").value);
-    let computer studies = Number(document.getElementById("computer studies").value);
-    let business studues = Number(document.getElementById("business studies").value);
-    let history = Number(document.getElementById("history").value);
-    let literature in english = Number(document.getElementById("literature in english").value);
-    let cultural and creative art = Number(document.getElementById("cultural and creative art").value);
-    let social studues = Number(document.getElementById("social studues").value);
-    let christian religious studues = Number(document.getElementById("christian religious studues").value);
-    let civic = Number(document.getElementById("civic").value);
-    let physical and health education= Number(document.getElementById("physical and health education").value);
+    let agriculturalScience = Number(document.getElementById("agriculturalScience").value);
+let homeEconomics = Number(document.getElementById("homeEconomics").value);
+let basicTechnology = Number(document.getElementById("basicTechnology").value);
+let computerStudies = Number(document.getElementById("computerStudies").value);
+let businessStudies = Number(document.getElementById("businessStudies").value);
+let history = Number(document.getElementById("history").value);
+let literatureInEnglish = Number(document.getElementById("literatureInEnglish").value);
+let culturalCreativeArt = Number(document.getElementById("culturalCreativeArt").value);
+let socialStudies = Number(document.getElementById("socialStudies").value);
+let christianReligiousStudies = Number(document.getElementById("christianReligiousStudies").value);
+let civicEducation = Number(document.getElementById("civicEducation").value);
+let physicalHealthEducation = Number(document.getElementById("physicalHealthEducation").value);
 
-    let total = math + english + science + agricultural science + home economics + basic technology + computer studies + business studues + history + literature in english + cultural and creative art + social studues + christian religious studues + civic + physical and health education;
-
+let total =
+    math +
+    english +
+    science +
+    agriculturalScience +
+    homeEconomics +
+    basicTechnology +
+    computerStudies +
+    businessStudies +
+    history +
+    literatureInEnglish +
+    culturalCreativeArt +
+    socialStudies +
+    christianReligiousStudies +
+    civicEducation +
+    physicalHealthEducation;
 
     let average = total / 15;
 
